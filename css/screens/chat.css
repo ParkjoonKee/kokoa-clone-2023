@@ -180,3 +180,7 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
+
+img {
+  object-fit: cover;
+}

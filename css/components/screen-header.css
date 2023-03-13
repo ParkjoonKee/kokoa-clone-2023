@@ -16,15 +16,6 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-@keyframes rotateCog {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateZ("360deg");
-  }
-}
-
-.screen-header__icon .fa-fog:hover {
-  animation: rotateCog 1s ease-in-out infinite;
+.screen-header__icon:hover {
+  color: var(--yellow);
 }

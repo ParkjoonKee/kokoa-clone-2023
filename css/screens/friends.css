@@ -1,5 +1,5 @@
 #friends-display-link {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--yellow);
   display: block;
   text-align: center;
   padding: 15px 0px;
@@ -50,4 +50,8 @@
   align-items: center;
   font-size: 128px;
   animation: hideSplashScreen 1s ease-in-out forwards;
+}
+
+.friends-screen img {
+  object-fit: cover;
 }
