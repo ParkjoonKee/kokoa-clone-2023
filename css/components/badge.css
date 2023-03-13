@@ -1,0 +1,29 @@
+.badge {
+  background-color: tomato;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border-radius: 7.5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 30%;
+}
+
+.badge-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -25px;
+  bottom: 0px;
+  border: 1.5px solid red;
+  border-radius: 100%;
+  font-weight: 700;
+  padding: 3px;
+  color: red;
+  font-size: 11px;
+}
